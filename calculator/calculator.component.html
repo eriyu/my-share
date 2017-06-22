@@ -1,0 +1,6 @@
+<div>
+  <input type="number" [(ngModel)]="price" (keyup)='Calculator()'>
+  x
+  <input type="number" [(ngModel)]="qty" (keyup)='Calculator()'>
+  <span *ngIf='total'>{{ total }}</span>
+</div>
